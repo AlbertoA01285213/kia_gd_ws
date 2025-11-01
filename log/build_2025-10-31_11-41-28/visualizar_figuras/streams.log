@@ -1,0 +1,54 @@
+[0.009s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/visualizar_figuras': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake /home/alberto/Documents/kia_gd_ws/src/visualizar_figuras -DCMAKE_INSTALL_PREFIX=/home/alberto/Documents/kia_gd_ws/install/visualizar_figuras
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.175s] -- The CXX compiler identification is GNU 11.4.0
+[0.185s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.246s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.247s] -- Detecting C compile features
+[0.247s] -- Detecting C compile features - done
+[0.250s] -- Detecting CXX compiler ABI info
+[0.309s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.321s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.671s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.703s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.708s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.715s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.727s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.785s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.786s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.786s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.823s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.826s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.892s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.914s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.958s] -- Looking for pthread.h
+[1.026s] -- Looking for pthread.h - found
+[1.027s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.088s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.089s] -- Found Threads: TRUE  
+[1.285s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.285s]   By not providing "Findjoint_state_publisher_gui.cmake" in CMAKE_MODULE_PATH
+[1.286s]   this project has asked CMake to find a package configuration file provided
+[1.286s]   by "joint_state_publisher_gui", but CMake did not find one.
+[1.286s] 
+[1.286s]   Could not find a package configuration file provided by
+[1.286s]   "joint_state_publisher_gui" with any of the following names:
+[1.286s] 
+[1.286s]     joint_state_publisher_guiConfig.cmake
+[1.286s]     joint_state_publisher_gui-config.cmake
+[1.286s] 
+[1.286s]   Add the installation prefix of "joint_state_publisher_gui" to
+[1.286s]   CMAKE_PREFIX_PATH or set "joint_state_publisher_gui_DIR" to a directory
+[1.286s]   containing one of the above files.  If "joint_state_publisher_gui" provides
+[1.286s]   a separate development package or SDK, be sure it has been installed.
+[1.286s] 
+[1.287s] [0m
+[1.287s] -- Configuring incomplete, errors occurred!
+[1.287s] See also "/home/alberto/Documents/kia_gd_ws/build/visualizar_figuras/CMakeFiles/CMakeOutput.log".
+[1.292s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/visualizar_figuras' returned '1': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake /home/alberto/Documents/kia_gd_ws/src/visualizar_figuras -DCMAKE_INSTALL_PREFIX=/home/alberto/Documents/kia_gd_ws/install/visualizar_figuras

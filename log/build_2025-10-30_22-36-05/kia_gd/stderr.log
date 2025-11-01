@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/alberto/Documents/kia_gd_ws/src/kia_gd/meshes": No such file or
+  directory.
+
+[0m

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<robot name="Kia">
+
+    <link name="Kia">
+        <visual>
+            <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/KIA_CAD.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="Deslizador">
+        <visual>
+            <origin rpy="1.57 0.0 -1.57" xyz="1.0 1.65 0.33"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/Deslizador.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+            <material name="Cyan">
+                <color rgba="0 1.0 1.0 1.0"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="Kia_Deslizador" type="prismatic">
+        <parent link = "Kia"/>
+        <child link = "Deslizador"/>
+        <origin xyz="0 0.0 0.0" rpy="0 0 0" />
+        <axis xyz="1 0 0"/>
+        <limit lower="0.0" upper="1.4" effort="100.0" velocity="0.5"/>
+    </joint>
+
+</robot>

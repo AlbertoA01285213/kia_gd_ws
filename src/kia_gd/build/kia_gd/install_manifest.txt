@@ -1,0 +1,15 @@
+/home/alberto/Documents/kia_gd/install/kia_gd/share/ament_index/resource_index/package_run_dependencies/kia_gd
+/home/alberto/Documents/kia_gd/install/kia_gd/share/ament_index/resource_index/parent_prefix_path/kia_gd
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/environment/ament_prefix_path.sh
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/environment/ament_prefix_path.dsv
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/environment/path.sh
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/environment/path.dsv
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/local_setup.bash
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/local_setup.sh
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/local_setup.zsh
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/local_setup.dsv
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/package.dsv
+/home/alberto/Documents/kia_gd/install/kia_gd/share/ament_index/resource_index/packages/kia_gd
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/cmake/kia_gdConfig.cmake
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/cmake/kia_gdConfig-version.cmake
+/home/alberto/Documents/kia_gd/install/kia_gd/share/kia_gd/package.xml

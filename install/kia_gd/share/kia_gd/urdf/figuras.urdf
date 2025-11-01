@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<robot name="figuras_basicas">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.5 0.5 0.1" />
+      </geometry>
+      <material name="Azul">
+        <color rgba="0.0 0.0 1.0 1.0" />
+      </material>
+    </visual>
+  </link>
+
+  <link name="link_cilindro">
+    <visual>
+      <geometry>
+        <cylinder radius="0.1" length="0.4" />
+      </geometry>
+      <material name="Rojo">
+        <color rgba="1.0 0.0 0.0 1.0" />
+      </material>
+    </visual>
+  </link>
+
+  <link name="link_esfera">
+    <visual>
+      <geometry>
+        <sphere radius="0.15" />
+      </geometry>
+      <material name="Verde">
+        <color rgba="0.0 1.0 0.0 1.0" />
+      </material>
+    </visual>
+  </link>
+
+  <joint name="joint_base_a_cilindro" type="revolute">
+    <parent link="base_link" />
+    <child link="link_cilindro" />
+    <origin xyz="0 0 0.25" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1.0" />
+  </joint>
+
+  <joint name="joint_cilindro_a_esfera" type="fixed">
+    <parent link="link_cilindro" />
+    <child link="link_esfera" />
+    <origin xyz="0 0 0.3" rpy="0 0 0" />
+  </joint>
+
+</robot>

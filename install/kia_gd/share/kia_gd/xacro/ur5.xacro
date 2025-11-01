@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<robot name="UR5">
+
+    <link name="Prueba">
+        <visual>
+            <geometry>
+                <cylinder length="0.6" radius="0.2"/>
+            </geometry>
+        </visual>
+    </link>
+
+
+    <link name="Base">
+        <visual>
+            <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/Base_m_ascii.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J1">
+        <visual>
+            <origin rpy="1.57 0.0 1.57" xyz="0.026975 0.0 0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J1_m_ascii.STL" scale="1 1 1"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J2">
+        <visual>
+            <origin rpy="1.57 0.0 1.57" xyz="0.026975 0.0 0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J2_m_ascii.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J3">
+        <visual>
+            <origin rpy="1.57 0.0 1.57" xyz="0.026975 0.0 0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J3_m_ascii.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J4">
+        <visual>
+            <origin rpy="1.57 0.0 1.57" xyz="0.026975 0.0 0"/>
+            <geometry>
+                <mesh filename="file://home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J4_m_ascii.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J5">
+        <visual>
+            <origin rpy="1.57 0.0 1.57" xyz="0.026975 0.0 0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J5_m_ascii.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J6">
+        <visual>
+            <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J6_m_ascii.STL"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="world"/>
+
+    <joint name="world_to_base" type="fixed">
+        <parent link="world"/>
+        <child link="Base"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <joint name="world_to_prueba" type="fixed">
+        <parent link="world"/>
+        <child link="Prueba"/>
+        <origin xyz="0 0 1" rpy="0 0 0"/> 
+    </joint>
+
+    <joint name="Base_J1" type="continuous">
+        <parent link = "Base"/>
+        <child link = "J1"/>
+        <origin xyz="0 0.0 0.0" rpy="0 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J1_J2" type="continuous">
+        <parent link = "J1"/>
+        <child link = "J2"/>
+        <origin xyz="0 0.0 0.0" rpy="0 0 3.141592" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J2_J3" type="continuous">
+        <parent link = "J2"/>
+        <child link = "J3"/>
+        <origin xyz="0 0.075 -0.02" rpy="0 0 3.141592" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J3_J4" type="continuous">
+        <parent link = "J3"/>
+        <child link = "J4"/>
+        <origin xyz="0 0.075 -0.02" rpy="0 0 3.141592" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J4_J5" type="continuous">
+        <parent link = "J4"/>
+        <child link = "J5"/>
+        <origin xyz="0 0.075 -0.02" rpy="0 0 3.141592" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J5_J6" type="continuous">
+        <parent link = "J5"/>
+        <child link = "J6"/>
+        <origin xyz="0 0.075 -0.02" rpy="0 0 3.141592" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+</robot>

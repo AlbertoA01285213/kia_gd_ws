@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<robot name="UR5">
+
+    <link name="Base">
+        <visual>
+            <origin rpy="0.0 1.57 0.0" xyz="-0.76 -0.76 1.16"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/Base.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J1">
+        <visual>
+            <origin rpy="1.57 1.57 0.0" xyz="-0.61 0.8 1.65"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J1.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J2">
+        <visual>
+            <origin rpy="1.57 -1.57 0.0" xyz="-0.07 0.8 -0.79"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J2.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J3">
+        <visual>
+            <origin rpy="1.57 1.57 0.0" xyz="-0.31 0.58 4.43"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J3.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J4">
+        <visual>
+            <origin rpy="0.0 1.57 1.57" xyz="-0.03 -0.52 0.63"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J4.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J5">
+        <visual>
+            <origin rpy="0.0 1.57 1.57" xyz="1.11 -0.53 1.46"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J5.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="J6">
+        <visual>
+            <origin rpy="0.0 0.0 -1.57" xyz="-1.13 0.62 -0.52"/>
+            <geometry>
+                <mesh filename="package://kia_gd/meshes/J6.stl" scale="0.01 0.01 0.01"/>
+            </geometry>
+        </visual>
+    </link>
+
+    <joint name="Base_J1" type="continuous">
+        <parent link = "Base"/>
+        <child link = "J1"/>
+        <origin xyz="0 0.0 0.0" rpy="0 0 0" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J1_J2" type="continuous">
+        <parent link = "J1"/>
+        <child link = "J2"/>
+        <origin xyz="0 0.0 0.79" rpy="0 0 3.141592" />
+        <axis xyz="1 0 0"/>
+    </joint>
+
+    <joint name="J2_J3" type="continuous">
+        <parent link = "J2"/>
+        <child link = "J3"/>
+        <origin xyz="0 -0.02 4.28" rpy="0 0 3.141592" />
+        <axis xyz="1 0 0"/>
+    </joint>
+
+    <joint name="J3_J4" type="continuous">
+        <parent link = "J3"/>
+        <child link = "J4"/>
+        <origin xyz="0 0.01 3.95" rpy="0 0 3.141592" />
+        <axis xyz="1 0 0"/>
+    </joint>
+
+    <joint name="J4_J5" type="continuous">
+        <parent link = "J4"/>
+        <child link = "J5"/>
+        <origin xyz="-1.22 0 0" rpy="0 0 3.141592" />
+        <axis xyz="0 0 1"/>
+    </joint>
+
+    <joint name="J5_J6" type="continuous">
+        <parent link = "J5"/>
+        <child link = "J6"/>
+        <origin xyz="0 -0.02 0.97" rpy="0 0 3.141592" />
+        <axis xyz="1 0 0"/>
+    </joint>
+
+</robot>

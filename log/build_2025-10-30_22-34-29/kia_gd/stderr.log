@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:16 (install):
+  install does not recognize sub-command Directory
+
+[0m
+[31mCMake Error at CMakeLists.txt:21 (install):
+  install does not recognize sub-command Directory
+
+[0m
+[31mCMake Error at CMakeLists.txt:26 (install):
+  install does not recognize sub-command Directory
+
+[0m
+[31mCMake Error at CMakeLists.txt:31 (install):
+  install does not recognize sub-command Directory
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1
