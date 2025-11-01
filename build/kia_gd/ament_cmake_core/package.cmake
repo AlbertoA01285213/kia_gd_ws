@@ -5,7 +5,7 @@ set(kia_gd_BUILD_DEPENDS "rclcpp" "rclpy" "std_msgs" "geometry_msgs" "sensor_msg
 set(kia_gd_BUILDTOOL_DEPENDS "ament_cmake")
 set(kia_gd_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "std_msgs" "geometry_msgs" "sensor_msgs" "visualization_msgs")
 set(kia_gd_BUILDTOOL_EXPORT_DEPENDS )
-set(kia_gd_EXEC_DEPENDS "urdf_launch" "robot_state_publisher" "joint_state_publisher_gui" "rviz2" "xacro" "rclcpp" "rclpy" "std_msgs" "geometry_msgs" "sensor_msgs" "visualization_msgs")
+set(kia_gd_EXEC_DEPENDS "urdf_launch" "robot_state_publisher" "joint_state_publisher_gui" "rviz2" "rclcpp" "rclpy" "std_msgs" "geometry_msgs" "sensor_msgs" "visualization_msgs")
 set(kia_gd_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(kia_gd_GROUP_DEPENDS )
 set(kia_gd_MEMBER_OF_GROUPS )

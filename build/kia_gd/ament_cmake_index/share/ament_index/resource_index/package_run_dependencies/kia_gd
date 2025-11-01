@@ -1,1 +1,1 @@
-rclcpp;rclpy;std_msgs;geometry_msgs;sensor_msgs;visualization_msgs;urdf_launch;robot_state_publisher;joint_state_publisher_gui;rviz2;xacro;ament_lint_auto;ament_lint_common
+rclcpp;rclpy;std_msgs;geometry_msgs;sensor_msgs;visualization_msgs;urdf_launch;robot_state_publisher;joint_state_publisher_gui;rviz2;ament_lint_auto;ament_lint_common
