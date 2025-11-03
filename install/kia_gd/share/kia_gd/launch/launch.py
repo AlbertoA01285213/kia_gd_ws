@@ -75,6 +75,13 @@ def generate_launch_description():
             output='screen',
         ),
 
+        Node(
+            package='kia_gd',  # El nombre de tu paquete
+            executable='dashboard', # El nombre que pusiste en setup.py
+            name='dashboard',
+            output='screen',
+        ),
+
         # --- ROBOT 1 (UR5) ---
         Node(
             package='robot_state_publisher',
@@ -88,14 +95,14 @@ def generate_launch_description():
                 'frame_prefix': robot1_namespace + '/' 
             }]
         ),
-        Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            name='joint_state_publisher_gui',
-            namespace=robot1_namespace,
-            output='screen',
-            parameters=[{'robot_description': robot1_desc}]
-        ),
+        # Node(
+        #     package='joint_state_publisher_gui',
+        #     executable='joint_state_publisher_gui',
+        #     name='joint_state_publisher_gui',
+        #     namespace=robot1_namespace,
+        #     output='screen',
+        #     parameters=[{'robot_description': robot1_desc}]
+        # ),
         
         # --- ROBOT 2 (Kia) ---
         Node(
@@ -110,14 +117,14 @@ def generate_launch_description():
                 'frame_prefix': robot2_namespace + '/'
             }]
         ),
-        Node(
-            package='joint_state_publisher_gui',
-            executable='joint_state_publisher_gui',
-            name='joint_state_publisher_gui',
-            namespace=robot2_namespace,
-            output='screen',
-            parameters=[{'robot_description': robot2_desc}]
-        ),
+        # Node(
+        #     package='joint_state_publisher_gui',
+        #     executable='joint_state_publisher_gui',
+        #     name='joint_state_publisher_gui',
+        #     namespace=robot2_namespace,
+        #     output='screen',
+        #     parameters=[{'robot_description': robot2_desc}]
+        # ),
         
         # --- RViz ---
         Node(

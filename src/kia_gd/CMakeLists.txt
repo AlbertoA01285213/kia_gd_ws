@@ -48,6 +48,11 @@ install(PROGRAMS scripts/mtconnect_bridge.py
   RENAME mtconnect_bridge
 )
 
+install(PROGRAMS scripts/dashboard.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME dashboard
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

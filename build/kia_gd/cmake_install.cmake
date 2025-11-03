@@ -71,6 +71,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kia_gd" TYPE PROGRAM RENAME "dashboard" FILES "/home/alberto/Documents/kia_gd_ws/src/kia_gd/scripts/dashboard.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/alberto/Documents/kia_gd_ws/build/kia_gd/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/kia_gd")
 endif()
 

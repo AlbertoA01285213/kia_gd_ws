@@ -70,6 +70,7 @@
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/controlador_ur5
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/controlador_kia
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/mtconnect_bridge
+/home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/dashboard
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/ament_index/resource_index/package_run_dependencies/kia_gd
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/ament_index/resource_index/parent_prefix_path/kia_gd
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/environment/ament_prefix_path.sh

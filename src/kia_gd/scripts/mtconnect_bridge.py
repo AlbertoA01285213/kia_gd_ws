@@ -11,40 +11,29 @@ class MTConnectBridge(Node):
 
     def __init__(self):
         super().__init__('mtconnect_bridge')
-        
-        # --- Configuración ---
-        # ¡CAMBIA ESTA IP! por la de tu Agente MTConnect
         self.agent_url = 'http://192.168.1.100:5000/current' 
         
-        # Publicadores para cada robot
         self.ur5_pub = self.create_publisher(JointState, '/UR5/joint_states', 10)
         self.kia_pub = self.create_publisher(JointState, '/Kia/joint_states', 10)
 
-        # Nombres de las articulaciones (DEBEN coincidir con los DataItems de MTConnect y el URDF)
-        # ESTO ES SOLO UN EJEMPLO, necesitas mapear tus nombres
         self.ur5_joint_names = ['Base_J1', 'J1_J2', 'J2_J3', 'J3_J4', 'J4_J5', 'J5_J6']
         self.kia_joint_names = ['Kia_Deslizador']
         
-        # Temporizador para sondear (polling) al agente cada 100ms (10 Hz)
         self.timer = self.create_timer(0.1, self.poll_mtconnect)
         self.get_logger().info('Nodo MTConnect Bridge iniciado. Sondeando a: ' + self.agent_url)
 
     def poll_mtconnect(self):
         try:
-            # 1. Hacer la petición HTTP al agente
             response = requests.get(self.agent_url, timeout=0.5)
-            response.raise_for_status() # Lanza un error si la petición falla
+            response.raise_for_status()
 
-            # 2. Parsear la respuesta XML
-            # MTConnect usa namespaces, lo cual complica el parseo. Esta es la forma de manejarlo.
             root = ET.fromstring(response.content)
-            namespaces = {'mt': 'urn:mtconnect.org:MTConnectStreams:1.3'} # Ajusta la versión si es necesario
+            namespaces = {'mt': 'urn:mtconnect.org:MTConnectStreams:1.3'} 
 
-            # 3. Preparar los mensajes
             ur5_msg = JointState()
             ur5_msg.header.stamp = self.get_clock().now().to_msg()
             ur5_msg.name = self.ur5_joint_names
-            ur5_msg.position = [0.0] * len(self.ur5_joint_names) # Inicializar con ceros
+            ur5_msg.position = [0.0] * len(self.ur5_joint_names)
 
             kia_msg = JointState()
             kia_msg.header.stamp = self.get_clock().now().to_msg()
