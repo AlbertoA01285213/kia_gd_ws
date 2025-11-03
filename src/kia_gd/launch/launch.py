@@ -38,10 +38,6 @@ def generate_launch_description():
         
         rviz_config_arg,
         
-        # --- INICIO DE MODIFICACIÓN ---
-        # Publica la transformación ESTÁTICA desde el 'world' común al robot 1 (UR5)
-        # Argumentos: [x, y, z, yaw, pitch, roll, frame_id_padre, frame_id_hijo]
-        # Cambia los valores de x, y, z, yaw, pitch, roll para colocar tu robot donde quieras
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
