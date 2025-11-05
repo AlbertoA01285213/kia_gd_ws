@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_simple_clients/include/ur_ros_rtde_simple_clients/simple_service_client_template.hpp

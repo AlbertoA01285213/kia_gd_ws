@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/ExecuteParametrizedTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "ur_ros_rtde_msgs/msg/Vector.idl"
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct ExecuteParametrizedTrajectory_Goal {
+      sequence<ur_ros_rtde_msgs::msg::Vector> joint_positions;
+
+      sequence<ur_ros_rtde_msgs::msg::Vector> joint_velocities;
+
+      sequence<double> times;
+
+      @default (value=1.0)
+      double deceleration;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct ExecuteParametrizedTrajectory_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct ExecuteParametrizedTrajectory_Feedback {
+      uint64 reached_waypoint;
+    };
+  };
+};

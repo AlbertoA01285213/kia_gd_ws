@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_generator_c/ur_ros_rtde_msgs/srv/detail/get_internal_state__struct.h

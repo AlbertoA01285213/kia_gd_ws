@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_gripper_commands/action/SgGrip.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_gripper_commands {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct SgGrip_Goal {
+      double target_width;
+
+      @default (value=TRUE)
+      boolean gentle_grip;
+
+      @default (value=0)
+      int32 tool_index;
+
+      @default (value=TRUE)
+      boolean blocking;
+
+      @default (value=FALSE)
+      boolean depth_compensation;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SgGrip_Result {
+      boolean result;
+
+      double width;
+    };
+    struct SgGrip_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

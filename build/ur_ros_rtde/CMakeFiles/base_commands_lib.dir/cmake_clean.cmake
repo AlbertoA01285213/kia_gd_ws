@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/execute_parametrized_trajectory.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/execute_parametrized_trajectory.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/execute_path.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/execute_path.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/execute_trajectory.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/execute_trajectory.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_j.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_j.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_j_relative.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_j_relative.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_l.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_l.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_l_relative.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_l_relative.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_contact.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_contact.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_force.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_force.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_torque.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_torque.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/reset_force_torque_sensor.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/reset_force_torque_sensor.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/send_custom_script.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/send_custom_script.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_digital_pin.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_digital_pin.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_free_drive.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_free_drive.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_payload.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_payload.cpp.o.d"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_speed_slider.cpp.o"
+  "CMakeFiles/base_commands_lib.dir/src/base_commands/set_speed_slider.cpp.o.d"
+  "libbase_commands_lib.pdb"
+  "libbase_commands_lib.so"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/base_commands_lib.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

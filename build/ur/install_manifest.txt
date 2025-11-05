@@ -1,0 +1,15 @@
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ament_index/resource_index/package_run_dependencies/ur
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ament_index/resource_index/parent_prefix_path/ur
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/environment/ament_prefix_path.sh
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/environment/ament_prefix_path.dsv
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/environment/path.sh
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/environment/path.dsv
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/local_setup.bash
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/local_setup.sh
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/local_setup.zsh
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/local_setup.dsv
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/package.dsv
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ament_index/resource_index/packages/ur
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/cmake/urConfig.cmake
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/cmake/urConfig-version.cmake
+/home/alberto/Documents/kia_gd_ws/install/ur/share/ur/package.xml

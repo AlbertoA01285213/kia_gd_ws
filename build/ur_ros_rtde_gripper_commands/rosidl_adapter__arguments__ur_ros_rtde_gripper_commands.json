@@ -1,0 +1,8 @@
+{
+  "package_name": "ur_ros_rtde_gripper_commands",
+  "non_idl_tuples": [
+    "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_gripper_commands:action/SgGrip.action",
+    "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_gripper_commands:action/SgRelease.action",
+    "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_gripper_commands:action/SgGetWidth.action"
+  ]
+}

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_ros_rtde_msgs/srv/StartDataRecording.srv
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct StartDataRecording_Request {
+      @default (value="")
+      string filename;
+
+      sequence<string> variables;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct StartDataRecording_Response {
+      boolean success;
+    };
+  };
+};

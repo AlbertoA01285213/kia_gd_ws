@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ur_ros_rtde_tutorials__py",
+		"source" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials__py"
+	}
+}

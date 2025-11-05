@@ -1,2 +1,1 @@
-source;share/kia_gd/environment/ament_prefix_path.sh
-source;share/kia_gd/environment/path.sh
+/home/alberto/Documents/kia_gd_ws/build/kia_gd/ament_cmake_environment_hooks/local_setup.dsv

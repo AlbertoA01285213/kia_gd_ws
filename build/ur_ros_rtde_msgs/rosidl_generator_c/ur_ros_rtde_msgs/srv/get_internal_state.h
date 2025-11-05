@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from ur_ros_rtde_msgs:srv/GetInternalState.idl
+// generated code does not contain a copyright notice
+
+#ifndef UR_ROS_RTDE_MSGS__SRV__GET_INTERNAL_STATE_H_
+#define UR_ROS_RTDE_MSGS__SRV__GET_INTERNAL_STATE_H_
+
+#include "ur_ros_rtde_msgs/srv/detail/get_internal_state__struct.h"
+#include "ur_ros_rtde_msgs/srv/detail/get_internal_state__functions.h"
+#include "ur_ros_rtde_msgs/srv/detail/get_internal_state__type_support.h"
+
+#endif  // UR_ROS_RTDE_MSGS__SRV__GET_INTERNAL_STATE_H_

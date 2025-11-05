@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_tutorials/action/MoveDownUntilForce.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_tutorials {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct MoveDownUntilForce_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct MoveDownUntilForce_Result {
+      boolean result;
+    };
+    struct MoveDownUntilForce_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

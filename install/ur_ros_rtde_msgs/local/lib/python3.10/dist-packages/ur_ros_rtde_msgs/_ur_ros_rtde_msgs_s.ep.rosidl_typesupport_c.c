@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_generator_py/ur_ros_rtde_msgs/_ur_ros_rtde_msgs_s.ep.rosidl_typesupport_c.c

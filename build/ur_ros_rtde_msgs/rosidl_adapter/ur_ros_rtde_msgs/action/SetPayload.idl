@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/SetPayload.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct SetPayload_Goal {
+      double mass;
+
+      geometry_msgs::msg::Point center_of_gravity;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SetPayload_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct SetPayload_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

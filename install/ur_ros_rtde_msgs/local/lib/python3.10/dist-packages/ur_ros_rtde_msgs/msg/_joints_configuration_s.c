@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_generator_py/ur_ros_rtde_msgs/msg/_joints_configuration_s.c

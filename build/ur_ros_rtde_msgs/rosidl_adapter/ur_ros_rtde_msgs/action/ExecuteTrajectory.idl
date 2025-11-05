@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/ExecuteTrajectory.action
+// generated code does not contain a copyright notice
+
+#include "ur_ros_rtde_msgs/msg/Vector.idl"
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct ExecuteTrajectory_Goal {
+      sequence<ur_ros_rtde_msgs::msg::Vector> trajectory;
+
+      @default (value=0.1)
+      double speed;
+
+      @default (value=0.1)
+      double acceleration;
+
+      @default (value=1.0)
+      double deceleration;
+
+      @default (value=1.0)
+      double speed_percentage;
+
+      @default (value="(2.0944, 2.0944, 3.1416, 3.1416, 3.1416, 3.1416)")
+      sequence<double> joint_speed_limits;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct ExecuteTrajectory_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct ExecuteTrajectory_Feedback {
+      uint64 reached_waypoint;
+    };
+  };
+};

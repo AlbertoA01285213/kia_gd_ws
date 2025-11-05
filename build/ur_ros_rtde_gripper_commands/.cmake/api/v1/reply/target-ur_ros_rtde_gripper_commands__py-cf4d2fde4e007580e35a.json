@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands/ur_ros_rtde_gripper_commands__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ur_ros_rtde_gripper_commands::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ur_ros_rtde_gripper_commands__py::@411f2471ea1b3ec73d94",
+	"name" : "ur_ros_rtde_gripper_commands__py",
+	"paths" : 
+	{
+		"build" : "ur_ros_rtde_gripper_commands__py",
+		"source" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands/ur_ros_rtde_gripper_commands__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands/ur_ros_rtde_gripper_commands__py/CMakeFiles/ur_ros_rtde_gripper_commands__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands/ur_ros_rtde_gripper_commands__py/CMakeFiles/ur_ros_rtde_gripper_commands__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands/rosidl_generator_py/ur_ros_rtde_gripper_commands/_ur_ros_rtde_gripper_commands_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

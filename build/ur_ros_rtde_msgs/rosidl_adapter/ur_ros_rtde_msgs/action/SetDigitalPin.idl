@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/SetDigitalPin.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct SetDigitalPin_Goal {
+      int8 pin;
+
+      boolean state;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SetDigitalPin_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct SetDigitalPin_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

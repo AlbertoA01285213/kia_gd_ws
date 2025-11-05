@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/MoveLRelative.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct MoveLRelative_Goal {
+      geometry_msgs::msg::Point position;
+
+      geometry_msgs::msg::Point orientation;
+
+      double speed;
+
+      double acceleration;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct MoveLRelative_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MoveLRelative_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

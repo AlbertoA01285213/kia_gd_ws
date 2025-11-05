@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/UnlockProtectiveStop.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct UnlockProtectiveStop_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct UnlockProtectiveStop_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct UnlockProtectiveStop_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

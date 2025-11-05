@@ -1,0 +1,4 @@
+source;share/ur_ros_rtde_gripper_commands/environment/ament_prefix_path.sh
+source;share/ur_ros_rtde_gripper_commands/environment/library_path.sh
+source;share/ur_ros_rtde_gripper_commands/environment/path.sh
+source;share/ur_ros_rtde_gripper_commands/environment/pythonpath.sh

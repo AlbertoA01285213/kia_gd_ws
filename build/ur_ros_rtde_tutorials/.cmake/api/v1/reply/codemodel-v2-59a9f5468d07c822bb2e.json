@@ -1,0 +1,260 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-674686ec16735a4357c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "ur_ros_rtde_tutorials__py",
+					"jsonFile" : "directory-ur_ros_rtde_tutorials__py-0d500ced236478c47b39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials__py",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ur_ros_rtde_tutorials",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ur_ros_rtde_tutorials_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ur_ros_rtde_tutorials_egg-6b478928bfe6f20d0b99.json",
+					"name" : "ament_cmake_python_build_ur_ros_rtde_tutorials_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ur_ros_rtde_tutorials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ur_ros_rtde_tutorials-a5136d933c67ac69c55f.json",
+					"name" : "ament_cmake_python_copy_ur_ros_rtde_tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "linear_movements::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-linear_movements-6adb2b9f05575b44a23e.json",
+					"name" : "linear_movements",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "trajectory_execution::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-trajectory_execution-d57e1789d034d25b910b.json",
+					"name" : "trajectory_execution",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorial_plugins_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorial_plugins_lib-a5ba1672cf51db99fa85.json",
+					"name" : "tutorial_plugins_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c0e3f4c421db7a3449f6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials-2d82e1ffbe760dfbe6ee.json",
+					"name" : "ur_ros_rtde_tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__cpp-d63a56bf31f3a1f048bd.json",
+					"name" : "ur_ros_rtde_tutorials__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ur_ros_rtde_tutorials__py::@03a6c7b612976525841f",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__py-fa17c49fb23593e1f7b0.json",
+					"name" : "ur_ros_rtde_tutorials__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_generator_c-21870cc1f02aaf7ca887.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_generator_py-6f8f0bb2228c60fefcd2.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_c-6d139211c93fdfd2a74c.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_c__pyext-0e276f48bc58365fe380.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_cpp-fc383d2adc71eec11f10.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c-1bf30c6dfab88a36d742.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c__pyext-e4f310d93a3f8d2f4378.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cpp-1b4b6333deacb97ad71a.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c-d56946968bbb45bc3385.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c__pyext-4acd535d77b012d69851.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp-74601760388c245487f2.json",
+					"name" : "ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_tutorials_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_tutorials_uninstall-ca2ad03631c0ff8ffa5e.json",
+					"name" : "ur_ros_rtde_tutorials_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials",
+		"source" : "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_tutorials"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde/include/ur_ros_rtde/command_server_template.hpp

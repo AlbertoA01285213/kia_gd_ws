@@ -1,0 +1,4 @@
+source;share/ur_ros_rtde_simple_clients/local_setup.bash
+source;share/ur_ros_rtde_simple_clients/local_setup.dsv
+source;share/ur_ros_rtde_simple_clients/local_setup.sh
+source;share/ur_ros_rtde_simple_clients/local_setup.zsh

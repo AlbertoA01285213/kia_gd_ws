@@ -53,6 +53,16 @@ install(PROGRAMS scripts/dashboard.py
   RENAME dashboard
 )
 
+install(PROGRAMS scripts/urconnect.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME urconnect
+)
+
+install(PROGRAMS scripts/gemelo_ur_relay.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME gemelo_ur_relay
+)
+
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

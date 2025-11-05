@@ -1,0 +1,9 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/uninstall.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/ur_ros_rtde_simple_clients_uninstall.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/test.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/edit_cache.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/rebuild_cache.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/list_install_components.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/install.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/install/local.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_simple_clients/CMakeFiles/install/strip.dir

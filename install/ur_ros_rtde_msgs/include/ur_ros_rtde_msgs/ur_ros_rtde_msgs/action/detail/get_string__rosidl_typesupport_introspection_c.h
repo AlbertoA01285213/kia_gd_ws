@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_typesupport_introspection_c/ur_ros_rtde_msgs/action/detail/get_string__rosidl_typesupport_introspection_c.h

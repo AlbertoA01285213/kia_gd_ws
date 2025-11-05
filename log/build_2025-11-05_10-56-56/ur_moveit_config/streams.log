@@ -1,0 +1,53 @@
+[0.015s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/ur_moveit_config -- -j8 -l8
+[0.059s] Built target ament_cmake_python_copy_ur_moveit_config
+[0.277s] running egg_info
+[0.291s] writing ur_moveit_config.egg-info/PKG-INFO
+[0.291s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[0.292s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[0.332s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.333s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.360s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[0.369s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/ur_moveit_config -- -j8 -l8
+[0.371s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/ur_moveit_config
+[0.376s] -- Install configuration: "Release"
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/config
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/launch
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/rviz
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/srdf
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[0.376s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[0.377s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[0.377s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.10.0-py3.10.egg-info
+[0.377s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.10.0-py3.10.egg-info/top_level.txt
+[0.377s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.10.0-py3.10.egg-info/SOURCES.txt
+[0.377s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.10.0-py3.10.egg-info/PKG-INFO
+[0.377s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config-2.10.0-py3.10.egg-info/dependency_links.txt
+[0.377s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config
+[0.377s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/launch_common.py
+[0.377s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config/__init__.py
+[0.409s] Listing '/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/ur_moveit_config'...
+[0.409s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/local/lib/python3.10/dist-packages/launch_common.py
+[0.441s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[0.442s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[0.443s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[0.443s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[0.443s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[0.443s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[0.443s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[0.443s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[0.443s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[0.454s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/ur_moveit_config

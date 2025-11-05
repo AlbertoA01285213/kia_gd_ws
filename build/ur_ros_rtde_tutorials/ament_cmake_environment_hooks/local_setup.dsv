@@ -1,0 +1,4 @@
+source;share/ur_ros_rtde_tutorials/environment/ament_prefix_path.sh
+source;share/ur_ros_rtde_tutorials/environment/library_path.sh
+source;share/ur_ros_rtde_tutorials/environment/path.sh
+source;share/ur_ros_rtde_tutorials/environment/pythonpath.sh

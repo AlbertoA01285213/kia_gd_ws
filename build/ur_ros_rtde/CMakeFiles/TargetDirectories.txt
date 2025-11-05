@@ -1,0 +1,15 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/uninstall.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/ur_ros_rtde_uninstall.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/robot_state_receiver.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/command_server.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/generate_control_script.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/base_commands_lib.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/dashboard_server.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/base_dashboard_commands_lib.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/test.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/edit_cache.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/rebuild_cache.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/list_install_components.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/install.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/install/local.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/CMakeFiles/install/strip.dir

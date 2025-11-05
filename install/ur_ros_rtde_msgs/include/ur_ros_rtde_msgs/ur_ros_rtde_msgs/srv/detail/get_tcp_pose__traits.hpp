@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_generator_cpp/ur_ros_rtde_msgs/srv/detail/get_tcp_pose__traits.hpp

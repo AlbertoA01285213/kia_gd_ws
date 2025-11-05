@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/ExecutePath.action
+// generated code does not contain a copyright notice
+
+#include "ur_ros_rtde_msgs/msg/Vector.idl"
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct ExecutePath_Goal {
+      sequence<ur_ros_rtde_msgs::msg::Vector> waypoints;
+
+      sequence<double> speed;
+
+      sequence<double> acceleration;
+
+      sequence<double> blend;
+
+      sequence<string> move_type;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct ExecutePath_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct ExecutePath_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

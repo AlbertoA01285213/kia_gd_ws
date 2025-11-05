@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/MoveJRelative.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct MoveJRelative_Goal {
+      sequence<double> joint_position;
+
+      double speed;
+
+      double acceleration;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct MoveJRelative_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MoveJRelative_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

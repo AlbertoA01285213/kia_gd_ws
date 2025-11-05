@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-c245682cf725db3f13b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ur_ros_rtde",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "base_commands_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_commands_lib-Release-fe481dcd0f71148e20a5.json",
+					"name" : "base_commands_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "base_dashboard_commands_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-base_dashboard_commands_lib-Release-97c57a324235b2ad12fe.json",
+					"name" : "base_dashboard_commands_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_server-Release-5394a922b5801448832c.json",
+					"name" : "command_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "dashboard_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dashboard_server-Release-5bf59ae9a2515c00958a.json",
+					"name" : "dashboard_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_control_script::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_control_script-Release-1a273038d9da7b4eaf0a.json",
+					"name" : "generate_control_script",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_state_receiver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_state_receiver-Release-5051a0bfe6a8df136c8a.json",
+					"name" : "robot_state_receiver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-85ab0db01a1e54fd5c47.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_uninstall-Release-1bfa797e27b5c7d97571.json",
+					"name" : "ur_ros_rtde_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde",
+		"source" : "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

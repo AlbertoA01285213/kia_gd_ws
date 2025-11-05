@@ -1,0 +1,6 @@
+[  2%] Built target generate_control_script
+[  6%] Built target dashboard_server
+[ 10%] Built target robot_state_receiver
+[ 14%] Built target command_server
+[ 48%] Built target base_commands_lib
+[100%] Built target base_dashboard_commands_lib

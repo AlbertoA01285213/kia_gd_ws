@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_ros_rtde_msgs/srv/GetJointState.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/JointState.idl"
+
+module ur_ros_rtde_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct GetJointState_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct GetJointState_Response {
+      boolean success;
+
+      sensor_msgs::msg::JointState joint_state;
+    };
+  };
+};

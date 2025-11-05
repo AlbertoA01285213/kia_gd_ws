@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_gripper_commands/action/SgRelease.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_gripper_commands {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct SgRelease_Goal {
+      double target_width;
+
+      @default (value=0)
+      int32 tool_index;
+
+      @default (value=TRUE)
+      boolean blocking;
+
+      @default (value=FALSE)
+      boolean depth_compensation;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SgRelease_Result {
+      boolean result;
+
+      double width;
+    };
+    struct SgRelease_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

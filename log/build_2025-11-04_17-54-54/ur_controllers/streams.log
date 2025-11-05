@@ -1,0 +1,213 @@
+[0.009s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/alberto/Documents/kia_gd_ws/install/ur_controllers
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.095s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.149s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.149s] -- Detecting C compile features
+[0.149s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.208s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.213s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.494s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.578s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.580s] -- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)
+[0.612s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.616s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.622s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.631s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.795s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.797s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.816s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.855s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.857s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.868s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.870s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.876s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.885s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.892s] -- Looking for pthread.h
+[0.943s] -- Looking for pthread.h - found
+[0.943s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.008s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.009s] -- Found Threads: TRUE  
+[1.049s] -- Found joint_trajectory_controller: 2.50.1 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.121s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.131s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.139s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.140s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.140s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.192s] -- Found ur_dashboard_msgs: 2.10.0 (/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[1.205s] -- Found ur_msgs: 2.3.0 (/opt/ros/humble/share/ur_msgs/cmake)
+[1.234s] -- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[1.236s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[1.251s] -- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)
+[1.253s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.258s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.259s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.328s] -- Configuring done
+[1.356s] -- Generating done
+[1.367s] -- Build files have been written to: /home/alberto/Documents/kia_gd_ws/build/ur_controllers
+[1.377s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/alberto/Documents/kia_gd_ws/install/ur_controllers
+[1.378s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/ur_controllers -- -j8 -l8
+[1.427s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/speed_scaling_state_broadcaster_parameters.yaml `[0m
+[1.427s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/gpio_controller_parameters.yaml `[0m
+[1.429s] [ 11%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/force_mode_controller_parameters.yaml `[0m
+[1.429s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/scaled_joint_trajectory_controller_parameters.yaml `[0m
+[1.429s] [ 17%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/freedrive_mode_controller_parameters.yaml `[0m
+[1.429s] [ 20%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/passthrough_trajectory_controller_parameters.yaml `[0m
+[1.431s] [ 14%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/tool_contact_controller_parameters.yaml `[0m
+[1.432s] [ 23%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp /home/alberto/Documents/kia_gd_ws/src/Universal_Robots_ROS2_Driver/ur_controllers/src/ur_configuration_controller_parameters.yaml `[0m
+[1.748s] [ 26%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/scaled_joint_trajectory_controller_parameters.hpp[0m
+[1.754s] [ 29%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/ur_configuration_controller_parameters.hpp[0m
+[1.767s] [ 32%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/gpio_controller_parameters.hpp[0m
+[1.781s] [ 32%] Built target scaled_joint_trajectory_controller_parameters
+[1.781s] [ 35%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/force_mode_controller_parameters.hpp[0m
+[1.786s] [ 35%] Built target ur_configuration_controller_parameters
+[1.788s] [ 38%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/speed_scaling_state_broadcaster_parameters.hpp[0m
+[1.796s] [ 38%] Built target gpio_controller_parameters
+[1.802s] [ 41%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/freedrive_mode_controller_parameters.hpp[0m
+[1.808s] [ 44%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/tool_contact_controller_parameters.hpp[0m
+[1.812s] [ 47%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.812s] [ 47%] Built target force_mode_controller_parameters
+[1.812s] [ 47%] Built target speed_scaling_state_broadcaster_parameters
+[1.815s] [ 50%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[1.817s] [ 52%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.829s] [ 52%] Built target freedrive_mode_controller_parameters
+[1.833s] [ 52%] Built target tool_contact_controller_parameters
+[1.839s] [ 55%] [34m[1mCreating deprecated header file /home/alberto/Documents/kia_gd_ws/build/ur_controllers/include/passthrough_trajectory_controller_parameters.hpp[0m
+[1.855s] [ 55%] Built target passthrough_trajectory_controller_parameters
+[1.878s] [ 58%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/tool_contact_controller.cpp.o[0m
+[1.879s] [ 61%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[1.879s] [ 64%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/freedrive_mode_controller.cpp.o[0m
+[1.881s] [ 67%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[1.882s] [ 70%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/force_mode_controller.cpp.o[0m
+[4.045s] [ 73%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[4.100s] [ 73%] Built target gmock_main
+[4.113s] [ 76%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[7.590s] [ 79%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/passthrough_trajectory_controller.cpp.o[0m
+[13.025s] [ 82%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/ur_configuration_controller.cpp.o[0m
+[15.145s] [ 85%] [32m[1mLinking CXX static library libgmock.a[0m
+[15.185s] [ 85%] Built target gmock
+[21.840s] [ 88%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[22.136s] [ 88%] Built target ur_controllers
+[22.152s] [ 94%] [32mBuilding CXX object CMakeFiles/test_load_freedrive_mode_controller.dir/test/test_load_freedrive_mode_controller.cpp.o[0m
+[22.152s] [ 94%] [32mBuilding CXX object CMakeFiles/test_load_force_mode_controller.dir/test/test_load_force_mode_controller.cpp.o[0m
+[27.464s] [ 97%] [32m[1mLinking CXX executable test_load_freedrive_mode_controller[0m
+[27.483s] [100%] [32m[1mLinking CXX executable test_load_force_mode_controller[0m
+[27.645s] [100%] Built target test_load_freedrive_mode_controller
+[27.668s] [100%] Built target test_load_force_mode_controller
+[27.679s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/ur_controllers -- -j8 -l8
+[27.680s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_controllers': AMENT_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/ur_controllers
+[27.687s] -- Install configuration: "Release"
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.687s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.688s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.689s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.690s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller_parameters.hpp
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller_parameters.hpp
+[27.691s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[27.691s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/lib/libur_controllers.so
+[27.691s] -- Set runtime path of "/home/alberto/Documents/kia_gd_ws/install/ur_controllers/lib/libur_controllers.so" to ""
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include
+[27.691s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/freedrive_mode_controller.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/force_mode_controller.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/tool_contact_controller.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/ur_configuration_controller.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/include/ur_controllers/passthrough_trajectory_controller.hpp
+[27.692s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[27.692s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/environment/path.sh
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/local_setup.bash
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/local_setup.sh
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/package.dsv
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[27.693s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[27.694s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_controllers/share/ur_controllers/package.xml
+[27.696s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/ur_controllers

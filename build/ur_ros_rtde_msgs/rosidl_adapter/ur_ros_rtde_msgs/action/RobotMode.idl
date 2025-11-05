@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/RobotMode.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct RobotMode_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct RobotMode_Result {
+      string result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct RobotMode_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

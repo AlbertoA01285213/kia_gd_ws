@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_generator_cpp/ur_ros_rtde_msgs/action/detail/set_digital_pin__builder.hpp

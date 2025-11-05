@@ -1,0 +1,4 @@
+/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_commands_lib.so
+/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_dashboard_commands_lib.so
+/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/export_ur_ros_rtdeExport.cmake
+/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/export_ur_ros_rtdeExport-release.cmake

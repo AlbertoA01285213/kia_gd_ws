@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde/launch/robot_state_receiver.launch.py

@@ -1,0 +1,6 @@
+{
+  "package_name": "ur_ros_rtde_tutorials",
+  "non_idl_tuples": [
+    "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_tutorials:action/MoveDownUntilForce.action"
+  ]
+}

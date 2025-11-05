@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/SetFreedrive.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct SetFreedrive_Goal {
+      boolean activated;
+
+      sequence<int32> free_axes;
+
+      sequence<double> feature;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct SetFreedrive_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct SetFreedrive_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

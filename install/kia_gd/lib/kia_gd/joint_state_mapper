@@ -1,0 +1,99 @@
+#!/usr/bin/env python3
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import JointState
+from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy
+
+class JointStateMapper(Node):
+    def __init__(self):
+        super().__init__('joint_state_mapper')
+        self.get_logger().info('JointStateMapper starting')
+
+        # Mapa: nombre_del_driver -> nombre_en_tu_urdf
+        self.map_names = {
+            'shoulder_pan_joint': 'Base_J1',
+            'shoulder_lift_joint': 'J1_J2',
+            'elbow_joint': 'J2_J3',
+            'wrist_1_joint': 'J3_J4',
+            'wrist_2_joint': 'J4_J5',
+            'wrist_3_joint': 'J5_J6'
+        }
+
+        qos = QoSProfile(
+            reliability=QoSReliabilityPolicy.BEST_EFFORT,
+            history=QoSHistoryPolicy.KEEP_LAST,
+            depth=10
+        )
+
+        self.pub = self.create_publisher(JointState, '/UR5/joint_states_custom', qos)
+        self.sub = self.create_subscription(JointState,
+                                            '/UR5/joint_states',
+                                            self.callback,
+                                            10)
+        # Otra forma: crear publisher antes de sub para evitar condiciones de carrera
+        # (ya hecho arriba)
+
+    def callback(self, msg: JointState):
+        if not msg.name:
+            self.get_logger().warn('Received JointState with empty name list')
+            return
+
+        # Log para depurar (solo al inicio o cada N msgs)
+        self.get_logger().debug(f'Received joint_state names: {msg.name}')
+
+        # Construir nuevo mensaje en el orden de los nombres MD -> new_names
+        new_msg = JointState()
+        new_msg.header = msg.header
+
+        new_names = []
+        new_positions = []
+        new_velocities = []
+        new_effort = []
+
+        # Recorremos los pares (original_name, value) y remapeamos al nuevo nombre
+        for i, orig_name in enumerate(msg.name):
+            mapped = self.map_names.get(orig_name)
+            if mapped:
+                new_names.append(mapped)
+                # Asegurarse de que las listas position/velocity/effort tienen el índice
+                if len(msg.position) > i:
+                    new_positions.append(msg.position[i])
+                else:
+                    new_positions.append(0.0)
+                if len(msg.velocity) > i:
+                    new_velocities.append(msg.velocity[i])
+                else:
+                    new_velocities.append(0.0)
+                if len(msg.effort) > i:
+                    new_effort.append(msg.effort[i])
+                else:
+                    new_effort.append(0.0)
+            else:
+                # ignoramos articulaciones no mapeadas intencionalmente
+                self.get_logger().warn(f'No mapping for joint "{orig_name}", skipping it')
+
+        if not new_names:
+            self.get_logger().warn('No mapped joints for this message — not publishing')
+            return
+
+        new_msg.name = new_names
+        new_msg.position = new_positions
+        new_msg.velocity = new_velocities
+        new_msg.effort = new_effort
+
+        # Publicar y confirmar
+        self.pub.publish(new_msg)
+        self.get_logger().debug(f'Published mapped joint_state names: {new_names}')
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = JointStateMapper()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    node.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

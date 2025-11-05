@@ -1,0 +1,251 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-46dc14d3265766fa980d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "ur_ros_rtde_gripper_commands__py",
+					"jsonFile" : "directory-ur_ros_rtde_gripper_commands__py-47e94d535e620c37a5f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands/ur_ros_rtde_gripper_commands__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "ur_ros_rtde_gripper_commands",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_ur_ros_rtde_gripper_commands_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_ur_ros_rtde_gripper_commands_egg-1540dbc5826dd7361187.json",
+					"name" : "ament_cmake_python_build_ur_ros_rtde_gripper_commands_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_ur_ros_rtde_gripper_commands::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_ur_ros_rtde_gripper_commands-6441b3d0c8e710279c77.json",
+					"name" : "ament_cmake_python_copy_ur_ros_rtde_gripper_commands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_preamble::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_preamble-8b32c75d4f65ae181fea.json",
+					"name" : "generate_preamble",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gripper_control_script_extension_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gripper_control_script_extension_lib-c8b506717e86b193504f.json",
+					"name" : "gripper_control_script_extension_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2f7dd06bfcd3a49bef0d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands-ac3ab60db822004cdb10.json",
+					"name" : "ur_ros_rtde_gripper_commands",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__cpp-101360486a9379c1ce62.json",
+					"name" : "ur_ros_rtde_gripper_commands__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ur_ros_rtde_gripper_commands__py::@411f2471ea1b3ec73d94",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__py-cf4d2fde4e007580e35a.json",
+					"name" : "ur_ros_rtde_gripper_commands__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_generator_c-42850ad6d7a2e0f690b3.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_generator_py-f563bd0998a0c291121a.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_c-c799eb0cba2dea44f132.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_c__pyext-e4a8a2e32687c91b986d.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_cpp-c7cc6af207bba311118d.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_c-298f3a3d6eb98d4495c9.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_c__pyext-efe6f72a7629a76e74d5.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_cpp-21e64058920157844561.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_c-94d33f60a2ac0947f57a.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_c__pyext-482abc676b73f7207fe0.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_cpp-794b966b2b26dfe9688e.json",
+					"name" : "ur_ros_rtde_gripper_commands__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ur_ros_rtde_gripper_commands_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ur_ros_rtde_gripper_commands_uninstall-8376ec328827cbdd36bb.json",
+					"name" : "ur_ros_rtde_gripper_commands_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_gripper_commands",
+		"source" : "/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_gripper_commands"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

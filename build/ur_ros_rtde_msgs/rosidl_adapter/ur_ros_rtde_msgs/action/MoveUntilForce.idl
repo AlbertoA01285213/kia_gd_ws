@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from ur_ros_rtde_msgs/action/MoveUntilForce.action
+// generated code does not contain a copyright notice
+
+
+module ur_ros_rtde_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "request")
+    struct MoveUntilForce_Goal {
+      sequence<double> tool_position_movement;
+
+      sequence<double> forces_to_consider;
+
+      double force_th;
+
+      double acceleration;
+
+      double speed;
+
+      double deceleration;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct MoveUntilForce_Result {
+      boolean result;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct MoveUntilForce_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

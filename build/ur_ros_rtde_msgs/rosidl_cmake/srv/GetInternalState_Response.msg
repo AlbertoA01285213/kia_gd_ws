@@ -1,0 +1,7 @@
+
+# result
+bool success
+bool[] digital_input_state
+bool[] digital_output_state
+float64 speed_slider_value
+float64 payload_value

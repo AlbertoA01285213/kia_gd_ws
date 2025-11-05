@@ -1,0 +1,11 @@
+source;share/ur_ros_rtde/hook/cmake_prefix_path.ps1
+source;share/ur_ros_rtde/hook/cmake_prefix_path.dsv
+source;share/ur_ros_rtde/hook/cmake_prefix_path.sh
+source;share/ur_ros_rtde/hook/ld_library_path_lib.ps1
+source;share/ur_ros_rtde/hook/ld_library_path_lib.dsv
+source;share/ur_ros_rtde/hook/ld_library_path_lib.sh
+source;share/ur_ros_rtde/local_setup.bash
+source;share/ur_ros_rtde/local_setup.dsv
+source;share/ur_ros_rtde/local_setup.ps1
+source;share/ur_ros_rtde/local_setup.sh
+source;share/ur_ros_rtde/local_setup.zsh

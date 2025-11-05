@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde/ament_cmake_core/ur_ros_rtdeConfig-version.cmake

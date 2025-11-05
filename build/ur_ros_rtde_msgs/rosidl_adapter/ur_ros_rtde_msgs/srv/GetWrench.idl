@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ur_ros_rtde_msgs/srv/GetWrench.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Wrench.idl"
+
+module ur_ros_rtde_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "request")
+    struct GetWrench_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "result")
+    struct GetWrench_Response {
+      boolean success;
+
+      geometry_msgs::msg::Wrench wrench;
+    };
+  };
+};

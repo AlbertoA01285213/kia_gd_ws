@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_typesupport_fastrtps_cpp/ur_ros_rtde_msgs/msg/detail/io_state__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,146 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+-- Found ur_ros_rtde_msgs: 0.0.0 (/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs/share/ur_ros_rtde_msgs/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found ur_ros_rtde_simple_clients: 0.0.0 (/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients/share/ur_ros_rtde_simple_clients/cmake)
+-- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde/include;$<BUILD_INTERFACE:/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde
+[  2%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/execute_path.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/execute_trajectory.cpp.o[0m
+[  4%] Built target generate_control_script
+[  8%] [32mBuilding CXX object CMakeFiles/robot_state_receiver.dir/src/robot_state_receiver.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/execute_parametrized_trajectory.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/dashboard_server.dir/src/dashboard_server.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_j.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/add_to_log.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/brake_release.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_j_relative.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/close_popup.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/command_server.dir/src/command_server.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/close_safety_popup.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_l.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/get_loaded_program.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable dashboard_server[0m
+[ 32%] Built target dashboard_server
+[ 34%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_l_relative.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/get_robot_model.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/get_serial_number.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_contact.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/is_in_remote_control.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/is_program_saved.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_force.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable command_server[0m
+[ 48%] Built target command_server
+[ 51%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/move_until_torque.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/reset_force_torque_sensor.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/send_custom_script.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/load_urp.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable robot_state_receiver[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/pause.cpp.o[0m
+[ 61%] Built target robot_state_receiver
+[ 63%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/play.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/set_digital_pin.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/polyscope_version.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/power_on.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/set_payload.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/set_speed_slider.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/power_off.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/program_state.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/popup.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/restart_safety.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/robot_mode.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/running.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/base_commands_lib.dir/src/base_commands/set_free_drive.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/safety_status.cpp.o[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/safety_mode.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/shutdown.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/base_dashboard_commands_lib.dir/src/base_dashboard_commands/unlock_protective_stop.cpp.o[0m
+[ 97%] [32m[1mLinking CXX shared library libbase_commands_lib.so[0m
+[ 97%] Built target base_commands_lib
+[100%] [32m[1mLinking CXX shared library libbase_dashboard_commands_lib.so[0m
+[100%] Built target base_dashboard_commands_lib
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/ur_ros_rtde/robot_state_receiver
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/ur_ros_rtde/command_server
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//plugins.xml
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/ur_ros_rtde/dashboard_server
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//plugins.xml
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//plugins.xml
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/library_path.sh
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/library_path.dsv
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//launch/command_server.launch.py
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//launch/dashboard_server.launch.py
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//launch/robot_state_receiver.launch.py
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//config/rtde_control.script
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//config/ur_rtde_5221785.patch
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/command_base_class.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/command_server_template.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/control_script_utils.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/dashboard_command_base_class.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/extension_base_class.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/robot_state_receiver.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/utils.hpp
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/package_run_dependencies/ur_ros_rtde
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/parent_prefix_path/ur_ros_rtde
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/ament_prefix_path.sh
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/ament_prefix_path.dsv
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/path.sh
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/path.dsv
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.bash
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.sh
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.zsh
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.dsv
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/package.dsv
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/packages/ur_ros_rtde
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/ur_ros_rtde__pluginlib__plugin/ur_ros_rtde
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ur_ros_rtdeConfig.cmake
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ur_ros_rtdeConfig-version.cmake
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/package.xml
+-- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_commands_lib.so
+-- Set runtime path of "/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_commands_lib.so" to ""
+-- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_dashboard_commands_lib.so
+-- Set runtime path of "/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_dashboard_commands_lib.so" to ""
+-- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/export_ur_ros_rtdeExport.cmake
+-- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/export_ur_ros_rtdeExport-release.cmake

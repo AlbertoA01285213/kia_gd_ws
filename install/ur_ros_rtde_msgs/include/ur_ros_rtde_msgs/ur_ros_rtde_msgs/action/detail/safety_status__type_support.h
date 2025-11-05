@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_msgs/rosidl_generator_c/ur_ros_rtde_msgs/action/detail/safety_status__type_support.h

@@ -1,0 +1,1 @@
+/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde/launch/command_server.launch.py
