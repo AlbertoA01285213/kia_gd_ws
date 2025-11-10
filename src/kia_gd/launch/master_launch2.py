@@ -53,7 +53,7 @@ def generate_launch_description():
             package='tf2_ros',
             executable='static_transform_publisher',
             name='world_to_ur5_base',
-            arguments=['0', '0.5', '0', '0', '0', '0', 'world', 'UR5/Base']
+            arguments=['0', '0.5', '0', '-1.57', '0', '0', 'world', 'UR5/Base']
         ),
         Node(
             package='tf2_ros',

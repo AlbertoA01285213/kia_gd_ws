@@ -95,7 +95,7 @@
     <joint name="J4_J5" type="continuous">
         <parent link = "J4"/>
         <child link = "J5"/>
-        <origin xyz="-1.22 0 0" rpy="0 0 3.141592" />
+        <origin xyz="-1.22 0 0" rpy="0 0 0" />
         <axis xyz="0 0 1"/>
     </joint>
 

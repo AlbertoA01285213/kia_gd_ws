@@ -37,10 +37,15 @@ docker run -it --rm \
   -p 5900:5900 \
   -p 29999:29999 \
   -p 30001-30004:30001-30004 \
+  -v ~/Documents/kia_gd_ws/ursim_programs:/ur-sim/programs/ \
   universalrobots/ursim_e-series
 ```
 
 En google buscas: http://localhost:6080/vnc.html
 
 IP del robot: 172.17.0.2
+
+https://github.com/SuperDiodo/ur_ros_rtde
+
+https://github.com/SuperDiodo/ur_ros_rtde/tree/main/ur_ros_rtde_tutorials
 
