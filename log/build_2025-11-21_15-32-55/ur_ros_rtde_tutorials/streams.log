@@ -1,0 +1,216 @@
+[0.015s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands/lib:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver/lib:/home/alberto/Documents/kia_gd_ws/install/ur_controllers/lib:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:/home/alberto/install/vectornav/lib:/home/alberto/install/vectornav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials -- -j8 -l8
+[0.036s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.224s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.227s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.232s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.242s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.254s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.289s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.290s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.399s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.454s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.491s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[0.508s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.520s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.548s] -- Found ur_ros_rtde: 0.0.0 (/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake)
+[0.551s] -- Found ur_ros_rtde_msgs: 0.0.0 (/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs/share/ur_ros_rtde_msgs/cmake)
+[0.606s] -- Found ur_ros_rtde_simple_clients: 0.0.0 (/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients/share/ur_ros_rtde_simple_clients/cmake)
+[0.607s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.941s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.659s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.681s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.702s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.702s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.702s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.822s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.832s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.833s] -- Configured cppcheck include dirs: /home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_tutorials/include;$<BUILD_INTERFACE:/home/alberto/Documents/kia_gd_ws/src/ur_ros_rtde/ur_ros_rtde_tutorials/include>
+[1.833s] -- Configured cppcheck exclude dirs and/or files: 
+[1.833s] -- Added test 'lint_cmake' to check CMake code style
+[1.834s] -- Added test 'uncrustify' to check C / C++ code style
+[1.834s] -- Configured uncrustify additional arguments: 
+[1.834s] -- Added test 'xmllint' to check XML markup files
+[1.835s] -- Configuring done
+[1.909s] -- Generating done
+[1.935s] -- Build files have been written to: /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials
+[1.968s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_generator_c[0m
+[1.969s] [35m[1mConsolidate compiler generated dependencies of target linear_movements[0m
+[1.969s] [35m[1mConsolidate compiler generated dependencies of target trajectory_execution[0m
+[1.981s] [  2%] [32mBuilding CXX object CMakeFiles/posiciones_ur5.dir/src/posiciones_ur5.cpp.o[0m
+[1.981s] [ 10%] Built target ur_ros_rtde_tutorials__rosidl_generator_c
+[1.981s] [ 12%] Built target ur_ros_rtde_tutorials__cpp
+[1.993s] [ 17%] Built target trajectory_execution
+[1.994s] [ 23%] Built target linear_movements
+[1.995s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c[0m
+[1.996s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c[0m
+[1.998s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_c[0m
+[2.000s] [ 23%] Built target ament_cmake_python_copy_ur_ros_rtde_tutorials
+[2.002s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_cpp[0m
+[2.011s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp[0m
+[2.012s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cpp[0m
+[2.016s] [ 30%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c
+[2.019s] [ 38%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c
+[2.021s] [ 51%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_c
+[2.021s] [ 53%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_cpp
+[2.031s] [ 61%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp
+[2.036s] [35m[1mConsolidate compiler generated dependencies of target tutorial_plugins_lib[0m
+[2.037s] [ 69%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cpp
+[2.070s] [ 69%] Built target ur_ros_rtde_tutorials
+[2.073s] [ 74%] Built target tutorial_plugins_lib
+[2.092s] [ 76%] Built target ur_ros_rtde_tutorials__py
+[2.103s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_generator_py[0m
+[2.117s] [ 82%] Built target ur_ros_rtde_tutorials__rosidl_generator_py
+[2.132s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.132s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_c__pyext[0m
+[2.133s] [35m[1mConsolidate compiler generated dependencies of target ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c__pyext[0m
+[2.145s] [ 87%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_c__pyext
+[2.148s] [ 92%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c__pyext
+[2.150s] [ 97%] Built target ur_ros_rtde_tutorials__rosidl_typesupport_introspection_c__pyext
+[2.258s] running egg_info
+[2.278s] writing ur_ros_rtde_tutorials.egg-info/PKG-INFO
+[2.279s] writing dependency_links to ur_ros_rtde_tutorials.egg-info/dependency_links.txt
+[2.279s] writing top-level names to ur_ros_rtde_tutorials.egg-info/top_level.txt
+[2.352s] reading manifest file 'ur_ros_rtde_tutorials.egg-info/SOURCES.txt'
+[2.353s] writing manifest file 'ur_ros_rtde_tutorials.egg-info/SOURCES.txt'
+[2.390s] [ 97%] Built target ament_cmake_python_build_ur_ros_rtde_tutorials_egg
+[6.596s] [100%] [32m[1mLinking CXX executable posiciones_ur5[0m
+[6.871s] [100%] Built target posiciones_ur5
+[6.883s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands/lib:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver/lib:/home/alberto/Documents/kia_gd_ws/install/ur_controllers/lib:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:/home/alberto/install/vectornav/lib:/home/alberto/install/vectornav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials -- -j8 -l8
+[6.885s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands/lib:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver/lib:/home/alberto/Documents/kia_gd_ws/install/ur_controllers/lib:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:/home/alberto/install/vectornav/lib:/home/alberto/install/vectornav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials
+[6.893s] -- Install configuration: ""
+[6.893s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/rosidl_interfaces/ur_ros_rtde_tutorials
+[6.893s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials
+[6.893s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/move_down_until_force.h
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.h
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__struct.h
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__functions.h
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__functions.c
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg/rosidl_generator_c__visibility_control.h
+[6.894s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/library_path.sh
+[6.895s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/library_path.dsv
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_generator_c.so
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__rosidl_typesupport_fastrtps_c.h
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg
+[6.895s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_c.so
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__builder.hpp
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__traits.hpp
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__struct.hpp
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.hpp
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/move_down_until_force.hpp
+[6.896s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/dds_fastrtps
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__rosidl_typesupport_fastrtps_cpp.hpp
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cpp.so
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail
+[6.897s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.c
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__rosidl_typesupport_introspection_c.h
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_typesupport_introspection_c.so
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_typesupport_c.so
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__rosidl_typesupport_introspection_cpp.hpp
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/include/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.cpp
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp.so
+[6.898s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_typesupport_cpp.so
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/pythonpath.sh
+[6.899s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/pythonpath.dsv
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials-0.0.0-py3.10.egg-info
+[6.899s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials-0.0.0-py3.10.egg-info/top_level.txt
+[6.899s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.899s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials-0.0.0-py3.10.egg-info/PKG-INFO
+[6.899s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/action
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/action/_move_down_until_force_s.c
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/action/_move_down_until_force.py
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/action/__init__.py
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/libur_ros_rtde_tutorials__rosidl_generator_py.so
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/_ur_ros_rtde_tutorials_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.899s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/_ur_ros_rtde_tutorials_s.ep.rosidl_typesupport_introspection_c.c
+[6.900s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/_ur_ros_rtde_tutorials_s.ep.rosidl_typesupport_c.c
+[6.900s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.900s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.900s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/__init__.py
+[6.941s] Listing '/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials'...
+[6.941s] Compiling '/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/__init__.py'...
+[6.941s] Listing '/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/action'...
+[6.946s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/local/lib/python3.10/dist-packages/ur_ros_rtde_tutorials/ur_ros_rtde_tutorials_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libur_ros_rtde_tutorials__rosidl_generator_py.so
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/action/MoveDownUntilForce.idl
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/action/MoveDownUntilForce.action
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/plugins.xml
+[6.947s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/libtutorial_plugins_lib.so
+[6.948s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials//action
+[6.948s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials//action/MoveDownUntilForce.action
+[6.948s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/linear_movements
+[6.948s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/trajectory_execution
+[6.948s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/posiciones_ur5
+[6.949s] -- Set runtime path of "/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/posiciones_ur5" to ""
+[6.949s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/package_run_dependencies/ur_ros_rtde_tutorials
+[6.949s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/parent_prefix_path/ur_ros_rtde_tutorials
+[6.949s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/ament_prefix_path.sh
+[6.950s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/ament_prefix_path.dsv
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/path.sh
+[6.950s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/path.dsv
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/local_setup.bash
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/local_setup.sh
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/local_setup.zsh
+[6.950s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/local_setup.dsv
+[6.950s] -- Installing: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/package.dsv
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/packages/ur_ros_rtde_tutorials
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/ur_ros_rtde_tutorials__pluginlib__plugin/ur_ros_rtde_tutorials
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_generator_cExport.cmake
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_generator_cExport-noconfig.cmake
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cExport.cmake
+[6.950s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_generator_cppExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_cExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_cExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cppExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_cppExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorials__rosidl_typesupport_cppExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_generator_pyExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorials__rosidl_generator_pyExport-noconfig.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorialsExport.cmake
+[6.951s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/export_ur_ros_rtde_tutorialsExport-noconfig.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/rosidl_cmake-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ament_cmake_export_libraries-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ament_cmake_export_targets-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorialsConfig.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/cmake/ur_ros_rtde_tutorialsConfig-version.cmake
+[6.952s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/package.xml
+[6.954s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials' returned '0': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv LD_LIBRARY_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands/lib:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver/lib:/home/alberto/Documents/kia_gd_ws/install/ur_controllers/lib:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs/lib:/home/alberto/install/vectornav/lib:/home/alberto/install/vectornav_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials

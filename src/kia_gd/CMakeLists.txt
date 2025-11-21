@@ -29,6 +29,11 @@ install(DIRECTORY
 )
 
 install(DIRECTORY
+  data
+  DESTINATION share/${PROJECT_NAME}
+)
+
+install(DIRECTORY
   rviz
   DESTINATION share/${PROJECT_NAME}
 )
@@ -43,6 +48,11 @@ install(PROGRAMS scripts/controlador_kia.py
   RENAME controlador_kia
 )
 
+install(PROGRAMS scripts/recibidor_kia.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME recibidor_kia
+)
+
 install(PROGRAMS scripts/mtconnect_bridge.py
   DESTINATION lib/${PROJECT_NAME}
   RENAME mtconnect_bridge
@@ -51,6 +61,11 @@ install(PROGRAMS scripts/mtconnect_bridge.py
 install(PROGRAMS scripts/dashboard.py
   DESTINATION lib/${PROJECT_NAME}
   RENAME dashboard
+)
+
+install(PROGRAMS scripts/ur_path_maker.py
+  DESTINATION lib/${PROJECT_NAME}
+  RENAME ur_path_maker
 )
 
 install(PROGRAMS scripts/urconnect.py

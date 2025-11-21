@@ -71,6 +71,7 @@
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest/logger_all.log
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest_build/events.log
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest_build/logger_all.log
+/home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/data/CourseProjectData.xlsx
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/rviz/rviz.rviz
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/rviz/visualizacion.rviz
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/rviz/visualizacion2.rviz

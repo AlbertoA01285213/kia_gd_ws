@@ -432,6 +432,19 @@ trajectory_execution/fast:
 .PHONY : trajectory_execution/fast
 
 #=============================================================================
+# Target rules for targets named posiciones_ur5
+
+# Build rule for target.
+posiciones_ur5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 posiciones_ur5
+.PHONY : posiciones_ur5
+
+# fast build rule for target.
+posiciones_ur5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/posiciones_ur5.dir/build.make CMakeFiles/posiciones_ur5.dir/build
+.PHONY : posiciones_ur5/fast
+
+#=============================================================================
 # Target rules for targets named ur_ros_rtde_tutorials__py
 
 # Build rule for target.
@@ -756,6 +769,30 @@ src/move_down_until_force.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tutorial_plugins_lib.dir/build.make CMakeFiles/tutorial_plugins_lib.dir/src/move_down_until_force.cpp.s
 .PHONY : src/move_down_until_force.cpp.s
 
+src/posiciones_ur5.o: src/posiciones_ur5.cpp.o
+.PHONY : src/posiciones_ur5.o
+
+# target to build an object file
+src/posiciones_ur5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/posiciones_ur5.dir/build.make CMakeFiles/posiciones_ur5.dir/src/posiciones_ur5.cpp.o
+.PHONY : src/posiciones_ur5.cpp.o
+
+src/posiciones_ur5.i: src/posiciones_ur5.cpp.i
+.PHONY : src/posiciones_ur5.i
+
+# target to preprocess a source file
+src/posiciones_ur5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/posiciones_ur5.dir/build.make CMakeFiles/posiciones_ur5.dir/src/posiciones_ur5.cpp.i
+.PHONY : src/posiciones_ur5.cpp.i
+
+src/posiciones_ur5.s: src/posiciones_ur5.cpp.s
+.PHONY : src/posiciones_ur5.s
+
+# target to generate assembly for a file
+src/posiciones_ur5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/posiciones_ur5.dir/build.make CMakeFiles/posiciones_ur5.dir/src/posiciones_ur5.cpp.s
+.PHONY : src/posiciones_ur5.cpp.s
+
 src/trajectory_execution.o: src/trajectory_execution.cpp.o
 .PHONY : src/trajectory_execution.o
 
@@ -801,6 +838,7 @@ help:
 	@echo "... ur_ros_rtde_tutorials__py"
 	@echo "... ur_ros_rtde_tutorials_uninstall"
 	@echo "... linear_movements"
+	@echo "... posiciones_ur5"
 	@echo "... trajectory_execution"
 	@echo "... tutorial_plugins_lib"
 	@echo "... ur_ros_rtde_tutorials__rosidl_generator_c"
@@ -853,6 +891,9 @@ help:
 	@echo "... src/move_down_until_force.o"
 	@echo "... src/move_down_until_force.i"
 	@echo "... src/move_down_until_force.s"
+	@echo "... src/posiciones_ur5.o"
+	@echo "... src/posiciones_ur5.i"
+	@echo "... src/posiciones_ur5.s"
 	@echo "... src/trajectory_execution.o"
 	@echo "... src/trajectory_execution.i"
 	@echo "... src/trajectory_execution.s"

@@ -1,6 +1,8 @@
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/controlador_ur5
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/controlador_kia
+/home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/recibidor_kia
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/mtconnect_bridge
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/dashboard
+/home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/ur_path_maker
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/urconnect
 /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/gemelo_ur_relay

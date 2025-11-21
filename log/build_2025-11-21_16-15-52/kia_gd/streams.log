@@ -1,0 +1,124 @@
+[0.040s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/kia_gd': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/kia_gd -- -j8 -l8
+[0.466s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/kia_gd' returned '0': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --build /home/alberto/Documents/kia_gd_ws/build/kia_gd -- -j8 -l8
+[0.468s] Invoking command in '/home/alberto/Documents/kia_gd_ws/build/kia_gd': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/kia_gd
+[0.480s] -- Install configuration: "Release"
+[0.480s] -- Execute custom install script
+[0.482s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/launch/launch.py
+[0.482s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/launch/master_launch.py
+[0.482s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/launch/master_launch2.py
+[0.482s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/launch/ur_control2.launch.py
+[0.482s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/build/.built_by
+[0.483s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/build/COLCON_IGNORE
+[0.483s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/.colcon_install_layout
+[0.483s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/COLCON_IGNORE
+[0.483s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/_local_setup_util_ps1.py
+[0.483s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/_local_setup_util_sh.py
+[0.483s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/local_setup.bash
+[0.484s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/local_setup.ps1
+[0.490s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/local_setup.sh
+[0.490s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/local_setup.zsh
+[0.490s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/setup.bash
+[0.491s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/setup.ps1
+[0.491s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/setup.sh
+[0.491s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/install/setup.zsh
+[0.491s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/kia.urdf
+[0.491s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/COLCON_IGNORE
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/build_2025-10-31_13-45-53/events.log
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/build_2025-10-31_13-45-53/logger_all.log
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/latest/events.log
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/latest/logger_all.log
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/latest_build/events.log
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/log/latest_build/logger_all.log
+[0.492s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/urdf/ur5.urdf
+[0.501s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.501s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.501s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.501s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.501s] Call Stack (most recent call first):
+[0.501s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.502s]   cmake_install.cmake:46 (include)
+[0.502s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.502s] [0m
+[0.502s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.502s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.502s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.502s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.502s] Call Stack (most recent call first):
+[0.502s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:320 (ament_cmake_symlink_install_directory)
+[0.502s]   cmake_install.cmake:46 (include)
+[0.503s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.503s] [0m
+[0.503s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/Base.stl
+[0.503s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/Deslizador.stl
+[0.503s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J1.stl
+[0.503s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J2.stl
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J3.stl
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J4.stl
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J5.stl
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/J6.stl
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/KIA_CAD.stl
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/build/.built_by
+[0.504s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/build/COLCON_IGNORE
+[0.505s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/.colcon_install_layout
+[0.505s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/COLCON_IGNORE
+[0.505s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/_local_setup_util_ps1.py
+[0.505s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/_local_setup_util_sh.py
+[0.505s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/local_setup.bash
+[0.505s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/local_setup.ps1
+[0.506s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/local_setup.sh
+[0.506s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/local_setup.zsh
+[0.506s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/setup.bash
+[0.506s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/setup.ps1
+[0.506s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/setup.sh
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/install/setup.zsh
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/COLCON_IGNORE
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_13-53-10/events.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_13-53-10/logger_all.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-01-21/events.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-01-21/logger_all.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-01-52/events.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-01-52/logger_all.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-02-46/events.log
+[0.507s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-02-46/logger_all.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-03-48/events.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-03-48/logger_all.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-12-39/events.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-12-39/logger_all.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-12-58/events.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-12-58/logger_all.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-13-17/events.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-13-17/logger_all.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-13-40/events.log
+[0.508s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/build_2025-10-31_14-13-40/logger_all.log
+[0.509s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest/events.log
+[0.509s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest/logger_all.log
+[0.509s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest_build/events.log
+[0.509s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/meshes/log/latest_build/logger_all.log
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/data/CourseProjectData.xlsx
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/rviz/rviz.rviz
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/rviz/visualizacion.rviz
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/rviz/visualizacion2.rviz
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/ament_index/resource_index/package_run_dependencies/kia_gd
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/ament_index/resource_index/parent_prefix_path/kia_gd
+[0.510s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/environment/ament_prefix_path.sh
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/environment/ament_prefix_path.dsv
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/environment/path.sh
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/environment/path.dsv
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/local_setup.bash
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/local_setup.sh
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/local_setup.zsh
+[0.511s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/local_setup.dsv
+[0.511s] -- Symlinking: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/package.dsv
+[0.515s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/ament_index/resource_index/packages/kia_gd
+[0.516s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/cmake/kia_gdConfig.cmake
+[0.516s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/cmake/kia_gdConfig-version.cmake
+[0.516s] -- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/kia_gd/share/kia_gd/package.xml
+[0.516s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/controlador_ur5
+[0.516s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/controlador_kia
+[0.516s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/recibidor_kia
+[0.516s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/mtconnect_bridge
+[0.516s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/dashboard
+[0.517s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/ur_path_maker
+[0.517s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/urconnect
+[0.517s] -- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/kia_gd/lib/kia_gd/gemelo_ur_relay
+[0.561s] Invoked command in '/home/alberto/Documents/kia_gd_ws/build/kia_gd' returned '0': CMAKE_PREFIX_PATH=/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_simple_clients:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_gripper_commands:/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_msgs:/home/alberto/Documents/kia_gd_ws/install/ur:/home/alberto/Documents/kia_gd_ws/install/ur_calibration:/home/alberto/Documents/kia_gd_ws/install/ur_robot_driver:/home/alberto/Documents/kia_gd_ws/install/ur_moveit_config:/home/alberto/Documents/kia_gd_ws/install/ur_bringup:/home/alberto/Documents/kia_gd_ws/install/ur_controllers:/home/alberto/Documents/kia_gd_ws/install/ur_dashboard_msgs:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_moveit_config:/home/alberto/Documents/kia_gd_ws/install/simple_ur10e_description:/home/alberto/Documents/kia_gd_ws/install/kia_gd:/home/alberto/Documents/sub_alberto/install/uuv_visualization:/home/alberto/Documents/sub_alberto/install/uuv_vision:/home/alberto/Documents/sub_alberto/install/uuv_navigation:/home/alberto/Documents/sub_alberto/install/uuv_mission:/home/alberto/Documents/sub_alberto/install/uuv_master:/home/alberto/Documents/sub_alberto/install/uuv_control:/home/alberto/install/vectornav:/home/alberto/install/vectornav_msgs:/home/alberto/install/uuv_teleop:/home/alberto/install/uuv_description:/home/alberto/install/sub:/home/alberto/install/pid:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint:/home/alberto/ros2_ws/install/docker_test:/opt/ros/humble:/home/alberto/install/catkin:/home/alberto/ros2_ws/install/sub:/home/alberto/ros2_ws/install/pid:/home/alberto/ros2_ws/install/catkin:/home/alberto/uuv/install/uuv /usr/bin/cmake --install /home/alberto/Documents/kia_gd_ws/build/kia_gd

@@ -319,6 +319,9 @@ ament_cmake_symlink_install_directory("/home/alberto/Documents/kia_gd_ws/src/kia
 # install(DIRECTORY "meshes" "DESTINATION" "share/kia_gd")
 ament_cmake_symlink_install_directory("/home/alberto/Documents/kia_gd_ws/src/kia_gd" DIRECTORY "meshes" "DESTINATION" "share/kia_gd")
 
+# install(DIRECTORY "data" "DESTINATION" "share/kia_gd")
+ament_cmake_symlink_install_directory("/home/alberto/Documents/kia_gd_ws/src/kia_gd" DIRECTORY "data" "DESTINATION" "share/kia_gd")
+
 # install(DIRECTORY "rviz" "DESTINATION" "share/kia_gd")
 ament_cmake_symlink_install_directory("/home/alberto/Documents/kia_gd_ws/src/kia_gd" DIRECTORY "rviz" "DESTINATION" "share/kia_gd")
 

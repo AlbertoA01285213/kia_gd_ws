@@ -1,0 +1,51 @@
+[  2%] Built target generate_control_script
+[  6%] Built target dashboard_server
+[ 10%] Built target command_server
+[ 14%] Built target robot_state_receiver
+[ 48%] Built target base_commands_lib
+[100%] Built target base_dashboard_commands_lib
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/ur_ros_rtde/robot_state_receiver
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/ur_ros_rtde/command_server
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//plugins.xml
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/ur_ros_rtde/dashboard_server
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//plugins.xml
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//plugins.xml
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/library_path.sh
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/library_path.dsv
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//launch/command_server.launch.py
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//launch/dashboard_server.launch.py
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//launch/robot_state_receiver.launch.py
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//config/rtde_control.script
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde//config/ur_rtde_5221785.patch
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/command_base_class.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/command_server_template.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/control_script_utils.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/dashboard_command_base_class.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/extension_base_class.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/robot_state_receiver.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/include/ur_ros_rtde/utils.hpp
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/package_run_dependencies/ur_ros_rtde
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/parent_prefix_path/ur_ros_rtde
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/path.sh
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/environment/path.dsv
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.bash
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.sh
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.zsh
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/local_setup.dsv
+-- Symlinking: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/package.dsv
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/packages/ur_ros_rtde
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ament_index/resource_index/ur_ros_rtde__pluginlib__plugin/ur_ros_rtde
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ur_ros_rtdeConfig.cmake
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/ur_ros_rtdeConfig-version.cmake
+-- Up-to-date symlink: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/package.xml
+-- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_commands_lib.so
+-- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/lib/libbase_dashboard_commands_lib.so
+-- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/export_ur_ros_rtdeExport.cmake
+-- Up-to-date: /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde/share/ur_ros_rtde/cmake/export_ur_ros_rtdeExport-release.cmake

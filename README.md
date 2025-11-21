@@ -12,6 +12,13 @@ sudo apt install ros-humble-ur-robot-driver
 ```bash
 ros2 launch kia_gd launch.py # Para correrlo
 ```
+
+## Correr el ros
+```bash
+ros2 launch kia_gd master_launch2.py
+```
+
+
 ## Correr UR en ubuntu
 El proyecto ocupa de un brazo robotico UR para funcionar. Por lo tanto es necesario instalar el simulador de UR para tener datos.
 
@@ -49,3 +56,34 @@ https://github.com/SuperDiodo/ur_ros_rtde
 
 https://github.com/SuperDiodo/ur_ros_rtde/tree/main/ur_ros_rtde_tutorials
 
+Para mover el robot es necesario correr:
+```bash
+ros2 launch ur_ros_rtde command_server.launch.py
+```
+
+```bash
+ros2 launch ur_ros_rtde robot_state_receiver.launch.py
+```
+
+```bash
+ros2 run ur_ros_rtde_tutorials linear_movements
+```
+
+``` bash
+ros2 run ur_ros_rtde_tutorials trajectory_execution
+```
+
+
+
+
+## Puente con Unity
+El gemelo digital se puede unir con Unity para mostrarlo de mejor manera. Para hacer eso, primero se clono el repositorio
+```bash
+git clone --branch main-ros2 https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
+```
+Luego se debe de sourcear 2 veces.
+
+Para correr un paquete:
+```bash
+ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=<your IP address> -p ROS_TCP_PORT:=10000
+```

@@ -1,0 +1,70 @@
+[2.111s] Invoking command in '/home/alberto/Documents/kia_gd_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build install --record /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[2.472s] /home/alberto/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[2.472s] !!
+[2.472s] 
+[2.472s]         ********************************************************************************
+[2.473s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.473s]         versions. Please use the underscore name 'script_dir' instead.
+[2.473s] 
+[2.473s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[2.473s]         or your builds will no longer be supported.
+[2.473s] 
+[2.473s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.473s]         ********************************************************************************
+[2.473s] 
+[2.474s] !!
+[2.474s]   opt = self._enforce_underscore(opt, section)
+[2.513s] /home/alberto/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.513s]   warnings.warn(msg)
+[2.754s] /home/alberto/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[2.754s] !!
+[2.754s] 
+[2.754s]         ********************************************************************************
+[2.755s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.755s]         versions. Please use the underscore name 'script_dir' instead.
+[2.755s]         (Affected: ros_tcp_endpoint).
+[2.755s] 
+[2.756s]         By 2026-Mar-03, you need to update your project and remove deprecated calls
+[2.756s]         or your builds will no longer be supported.
+[2.756s] 
+[2.756s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.756s]         ********************************************************************************
+[2.757s] 
+[2.757s] !!
+[2.757s]   opt = self._enforce_underscore(opt, section)
+[2.970s] running egg_info
+[3.033s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[3.038s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[3.040s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[3.041s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[3.042s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[3.173s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.176s] adding license file 'LICENSE'
+[3.177s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.178s] running build
+[3.178s] running build_py
+[3.179s] copying ros_tcp_endpoint/service.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.180s] copying ros_tcp_endpoint/client.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.181s] copying ros_tcp_endpoint/publisher.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.181s] copying ros_tcp_endpoint/thread_pauser.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.182s] copying ros_tcp_endpoint/subscriber.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.182s] copying ros_tcp_endpoint/server.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.183s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.183s] copying ros_tcp_endpoint/unity_service.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.184s] copying ros_tcp_endpoint/communication.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.185s] copying ros_tcp_endpoint/tcp_sender.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.185s] copying ros_tcp_endpoint/__init__.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.186s] copying ros_tcp_endpoint/exceptions.py -> /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.187s] running install
+[3.199s] running install_lib
+[3.255s] running install_data
+[3.260s] copying resource/ros_tcp_endpoint -> /home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[3.260s] copying package.xml -> /home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[3.260s] copying launch/endpoint.py -> /home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[3.260s] running install_egg_info
+[3.305s] removing '/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info' (and everything under it)
+[3.308s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[3.309s] running install_scripts
+[3.411s] Installing default_server_endpoint script to /home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[3.412s] writing list of installed files to '/home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/install.log'
+[3.480s] Invoked command in '/home/alberto/Documents/kia_gd_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alberto/Documents/kia_gd_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/build install --record /home/alberto/Documents/kia_gd_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

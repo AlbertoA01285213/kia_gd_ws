@@ -18,6 +18,7 @@
 /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/tutorial_plugins_lib.dir
 /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/linear_movements.dir
 /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/trajectory_execution.dir
+/home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/posiciones_ur5.dir
 /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/test.dir
 /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/edit_cache.dir
 /home/alberto/Documents/kia_gd_ws/build/ur_ros_rtde_tutorials/CMakeFiles/rebuild_cache.dir

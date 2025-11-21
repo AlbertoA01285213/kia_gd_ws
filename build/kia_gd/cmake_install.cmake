@@ -55,11 +55,19 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kia_gd" TYPE PROGRAM RENAME "recibidor_kia" FILES "/home/alberto/Documents/kia_gd_ws/src/kia_gd/scripts/recibidor_kia.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kia_gd" TYPE PROGRAM RENAME "mtconnect_bridge" FILES "/home/alberto/Documents/kia_gd_ws/src/kia_gd/scripts/mtconnect_bridge.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kia_gd" TYPE PROGRAM RENAME "dashboard" FILES "/home/alberto/Documents/kia_gd_ws/src/kia_gd/scripts/dashboard.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kia_gd" TYPE PROGRAM RENAME "ur_path_maker" FILES "/home/alberto/Documents/kia_gd_ws/src/kia_gd/scripts/ur_path_maker.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

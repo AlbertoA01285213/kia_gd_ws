@@ -57,6 +57,7 @@
 /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials//action/MoveDownUntilForce.action
 /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/linear_movements
 /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/trajectory_execution
+/home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/lib/ur_ros_rtde_tutorials/posiciones_ur5
 /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/package_run_dependencies/ur_ros_rtde_tutorials
 /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ament_index/resource_index/parent_prefix_path/ur_ros_rtde_tutorials
 /home/alberto/Documents/kia_gd_ws/install/ur_ros_rtde_tutorials/share/ur_ros_rtde_tutorials/environment/ament_prefix_path.sh

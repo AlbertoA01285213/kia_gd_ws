@@ -72,17 +72,25 @@ def generate_launch_description():
         # ),
         Node(
             package='kia_gd',
-            executable='controlador_kia',
-            name='controlador_kia',
+            executable='recibidor_kia',
+            name='recibidor_kia',
             namespace=robot2_namespace,
             output='screen',
         ),
-        Node(
-            package='kia_gd',
-            executable='dashboard', # El switch
-            name='dashboard',
-            output='screen',
-        ),
+
+        # Node(
+        #     package='kia_gd',
+        #     executable='ur_path_maker',
+        #     name='ur_path_maker',
+        #     namespace=robot1_namespace,
+        #     output='screen',
+        # ),
+        # Node(
+        #     package='kia_gd',
+        #     executable='dashboard', # El switch
+        #     name='dashboard',
+        #     output='screen',
+        # ),
 
         # --- INICIO DE MODIFICACIÓN ---
         
