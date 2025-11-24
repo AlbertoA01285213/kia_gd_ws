@@ -3,63 +3,63 @@
 
     <link name="Base">
         <visual>
-            <origin rpy="0.0 1.57 0.0" xyz="-0.76 -0.76 1.16"/>
+            <origin rpy="0.0 1.57 0.0" xyz="0.425 -0.075 0.116"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/Base.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/Base_scaled.stl" scale="1 1 1"/>
             </geometry>
         </visual>
     </link>
 
     <link name="J1">
         <visual>
-            <origin rpy="1.57 1.57 0.0" xyz="-0.61 0.8 1.65"/>
+            <origin rpy="1.57 1.57 0.0" xyz="-0.061 0.08 0.174"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/J1.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/J1_scaled.stl" scale="1 1 1"/>
             </geometry>
         </visual>
     </link> 
 
     <link name="J2">
         <visual>
-            <origin rpy="1.57 -1.57 0.0" xyz="-0.07 0.8 -0.79"/>
+            <origin rpy="1.57 -1.57 0.0" xyz="-0.0 0.08 -0.078"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/J2.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/J2_scaled.stl" scale="1 1 1"/>
             </geometry>
         </visual>
     </link>
 
-    <link name="J3">
+    <link name="J3"> 
         <visual>
-            <origin rpy="1.57 1.57 0.0" xyz="-0.31 0.58 4.43"/>
+            <origin rpy="1.57 1.57 0.0" xyz="-0.037 0.058 0.440"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/J3.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/J3.stl" scale="0.001 0.001 0.001"/>
             </geometry>
         </visual>
     </link>
 
     <link name="J4">
         <visual>
-            <origin rpy="0.0 1.57 1.57" xyz="-0.03 -0.52 0.63"/>
+            <origin rpy="0.0 1.57 1.57" xyz="0.003 -0.053 0.063"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/J4.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/J4_scaled.stl" scale="1 1 1"/>
             </geometry>
         </visual>
     </link>
 
     <link name="J5">
         <visual>
-            <origin rpy="0.0 1.57 1.57" xyz="1.11 -0.53 1.46"/>
+            <origin rpy="0.0 1.57 1.57" xyz="0.11 -0.052 0.146"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/J5.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/J5_scaled.stl" scale="1 1 1"/>
             </geometry>
         </visual>
     </link>
 
     <link name="J6">
         <visual>
-            <origin rpy="0.0 0.0 -1.57" xyz="-1.13 0.62 -0.52"/>
+            <origin rpy="0.0 0.0 -1.57" xyz="-0.115 0.062 -0.053"/>
             <geometry>
-                <mesh filename="package://kia_gd/meshes/J6.stl" scale="0.01 0.01 0.01"/>
+                <mesh filename="package://kia_gd/meshes/J6_scaled.stl" scale="1 1 1"/>
             </geometry>
         </visual>
     </link>
@@ -67,42 +67,42 @@
     <joint name="Base_J1" type="continuous">
         <parent link = "Base"/>
         <child link = "J1"/>
-        <origin xyz="0 0.0 0.0" rpy="0 0 0" />
+        <origin xyz="0.5 0.0 0.0" rpy="0 0 0" />
         <axis xyz="0 0 1"/>
     </joint>
 
     <joint name="J1_J2" type="continuous">
         <parent link = "J1"/>
         <child link = "J2"/>
-        <origin xyz="0 0.0 0.79" rpy="-1.57 0 3.141592" />
+        <origin xyz="0 0.00 0.090" rpy="-1.57 0 3.141592" />
         <axis xyz="-1 0 0"/>
     </joint>
 
     <joint name="J2_J3" type="continuous">
         <parent link = "J2"/>
         <child link = "J3"/>
-        <origin xyz="0 -0.02 4.28" rpy="0 0 3.141592" />
+        <origin xyz="0 0.00 0.430" rpy="0 0 3.141592" />
         <axis xyz="1 0 0"/>
     </joint>
 
     <joint name="J3_J4" type="continuous">
         <parent link = "J3"/>
         <child link = "J4"/>
-        <origin xyz="0 0.01 3.95" rpy="-1.57 0 3.141592" />
+        <origin xyz="0 0.001 0.393" rpy="-1.57 0 3.141592" />
         <axis xyz="-1 0 0"/>
     </joint>
 
     <joint name="J4_J5" type="continuous">
         <parent link = "J4"/>
         <child link = "J5"/>
-        <origin xyz="-1.22 0 0" rpy="0 0 0" />
+        <origin xyz="-0.117 0 0" rpy="0 0 0" />
         <axis xyz="0 0 1"/>
     </joint>
 
     <joint name="J5_J6" type="continuous">
         <parent link = "J5"/>
         <child link = "J6"/>
-        <origin xyz="0 -0.02 0.97" rpy="0 0 3.141592" />
+        <origin xyz="0 0 0.097" rpy="0 0 3.141592" />
         <axis xyz="1 0 0"/>
     </joint>
 

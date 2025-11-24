@@ -15,23 +15,13 @@ class GemeloRelayNode(Node):
 
         # Publicador hacia robot_state_publisher (RViz espera /UR5/joint_states)
         # Puedes usar '/UR5/joint_states' absoluto o 'joint_states' si publicas en namespace UR5.
-        self.publisher_ = self.create_publisher(JointState, '/UR5/joint_states', 10)
-        # self.tcp_pub = self.create_publisher(PoseStamped, '/UR5/tcp_pose', 10)
+        self.pub_joint = self.create_publisher(JointState, '/UR5/joint_states', 10)
+        self.pub_tcp = self.create_publisher(PoseStamped, '/UR5/tcp_pose', 10)
 
         # Suscriptor al driver (que publica /joint_states)
-        self.driver_sub = self.create_subscription(
-            JointState,
-            '/joint_states',
-            self.driver_callback,
-            rclpy.qos.qos_profile_sensor_data
-        )
+        self.sub_joint = self.create_subscription(JointState, '/joint_states', self.driver_callback, rclpy.qos.qos_profile_sensor_data)
 
-        # self.tcp_driver_sub = self.create_subscription(
-        #     Pose,
-        #     '/tcp_pose',
-        #     self.tcp_driver_callback,
-        #     rclpy.qos.qos_profile_sensor_data
-        # )
+        self.sub_tcp = self.create_subscription(Pose, '/tcp_pose', self.tcp_driver_callback, rclpy.qos.qos_profile_sensor_data)
 
         # Mapeo: nombre_del_driver -> nombre_en_tu_urdf
         self.map_names = {
@@ -96,20 +86,20 @@ class GemeloRelayNode(Node):
         new_msg.velocity = new_velocities
         new_msg.effort = new_efforts
 
-        self.publisher_.publish(new_msg)
+        self.pub_joint.publish(new_msg)
         self.get_logger().debug(f'Publicado /UR5/joint_states con: {new_names}')
 
-    # def tcp_driver_callback(self, msg: Pose):
-    #     if self.modo_manual_activo:
-    #         return
+    def tcp_driver_callback(self, msg: Pose):
+        if self.modo_manual_activo:
+            return
 
-    #     # Convertir Pose -> PoseStamped
-    #     tcp_msg = PoseStamped()
-    #     tcp_msg.header.stamp = self.get_clock().now().to_msg()
-    #     tcp_msg.header.frame_id = "UR5/base_link"   # Ajusta según tu URDF
-    #     tcp_msg.pose = msg
+        # Convertir Pose -> PoseStamped
+        tcp_msg = PoseStamped()
+        tcp_msg.header.stamp = self.get_clock().now().to_msg()
+        tcp_msg.header.frame_id = "world"   # Ajusta según tu URDF
+        tcp_msg.pose = msg
 
-    #     self.tcp_pub.publish(tcp_msg)
+        self.pub_tcp.publish(tcp_msg)
 
 
 def main(args=None):

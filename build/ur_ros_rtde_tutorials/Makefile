@@ -445,6 +445,19 @@ posiciones_ur5/fast:
 .PHONY : posiciones_ur5/fast
 
 #=============================================================================
+# Target rules for targets named joints_ur5
+
+# Build rule for target.
+joints_ur5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 joints_ur5
+.PHONY : joints_ur5
+
+# fast build rule for target.
+joints_ur5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joints_ur5.dir/build.make CMakeFiles/joints_ur5.dir/build
+.PHONY : joints_ur5/fast
+
+#=============================================================================
 # Target rules for targets named ur_ros_rtde_tutorials__py
 
 # Build rule for target.
@@ -721,6 +734,30 @@ rosidl_typesupport_introspection_cpp/ur_ros_rtde_tutorials/action/detail/move_do
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/ur_ros_rtde_tutorials__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.cpp.s
 
+src/joints_ur5.o: src/joints_ur5.cpp.o
+.PHONY : src/joints_ur5.o
+
+# target to build an object file
+src/joints_ur5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joints_ur5.dir/build.make CMakeFiles/joints_ur5.dir/src/joints_ur5.cpp.o
+.PHONY : src/joints_ur5.cpp.o
+
+src/joints_ur5.i: src/joints_ur5.cpp.i
+.PHONY : src/joints_ur5.i
+
+# target to preprocess a source file
+src/joints_ur5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joints_ur5.dir/build.make CMakeFiles/joints_ur5.dir/src/joints_ur5.cpp.i
+.PHONY : src/joints_ur5.cpp.i
+
+src/joints_ur5.s: src/joints_ur5.cpp.s
+.PHONY : src/joints_ur5.s
+
+# target to generate assembly for a file
+src/joints_ur5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/joints_ur5.dir/build.make CMakeFiles/joints_ur5.dir/src/joints_ur5.cpp.s
+.PHONY : src/joints_ur5.cpp.s
+
 src/linear_movements.o: src/linear_movements.cpp.o
 .PHONY : src/linear_movements.o
 
@@ -837,6 +874,7 @@ help:
 	@echo "... ur_ros_rtde_tutorials__cpp"
 	@echo "... ur_ros_rtde_tutorials__py"
 	@echo "... ur_ros_rtde_tutorials_uninstall"
+	@echo "... joints_ur5"
 	@echo "... linear_movements"
 	@echo "... posiciones_ur5"
 	@echo "... trajectory_execution"
@@ -885,6 +923,9 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/ur_ros_rtde_tutorials/action/detail/move_down_until_force__type_support.s"
+	@echo "... src/joints_ur5.o"
+	@echo "... src/joints_ur5.i"
+	@echo "... src/joints_ur5.s"
 	@echo "... src/linear_movements.o"
 	@echo "... src/linear_movements.i"
 	@echo "... src/linear_movements.s"
